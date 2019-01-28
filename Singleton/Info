@@ -1,0 +1,11 @@
+we can use singleton design pattern when we need a global resource in our application and whose 
+implementation is not going to changed by external class.
+
+- Logging By singleton Class in Java
+- Database Connection with Singleton Design Pattern
+
+Drawbacks
+a.The caller of singleton class does not know the implementation of singleton design pattern. 
+	Because it hides it implementation that makes singleton of lesser use. 
+b.	No flexibility for the future to make it more than one like two or three instance. 
+c.Singleton class uses static class, block or variable, so no usability of making its subclass.
